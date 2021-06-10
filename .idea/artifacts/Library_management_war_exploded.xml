@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Library_management:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Library_management_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Library_management" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Library_management/web/Web" />
+    </root>
+  </artifact>
+</component>
